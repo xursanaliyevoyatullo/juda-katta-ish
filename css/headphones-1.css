@@ -1,0 +1,211 @@
+
+.header {
+    margin-bottom: 7.9rem;
+}
+.birinchi {
+    margin-top: 1rem;
+    padding-bottom: 0;
+}
+.goback {
+    color: var(--dark-black);
+    opacity: 70%;
+    margin-bottom: 5.6rem;
+}
+
+.main__cards__texts {
+   margin-top: -1rem;
+}
+.main__cards__h1 {
+    font-size: 2rem;
+    margin-bottom: 0;
+    padding-bottom: 1.5rem;
+}
+.main__cards__p {
+    margin-bottom: 0;
+    padding-bottom: 2.5rem;
+}
+.dollar {
+    font-size: 1.8rem;
+    margin-bottom: 4.5rem;
+}
+.double__btn {
+    display: flex;
+    gap: 1.6rem;
+}
+@media screen and (max-width: 900px) {
+    .double__btn {
+        gap: 16rem;
+    }
+}
+@media screen and (max-width: 768px) {
+    .main__cards__texts {
+        margin-top: 3.2rem;
+        text-align: left;
+        margin-right: auto;
+    }
+    .main__cards__p__text {
+        margin-bottom: 2.4rem;
+    }
+    .main__cards__h1 {
+        margin-bottom: 2.4rem;
+    }
+    .main__cards__p {
+        text-align: left;
+    }
+    .double__btn {
+        gap: 1.6rem;
+    }
+}
+
+
+
+/* ------------------Headphones Section-------------------*/
+.headphones__section {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 16rem;
+}
+.head__sec__text {
+    max-width: 635px;
+}
+.head__sec__text__h1 {
+    margin-bottom: 3.2rem;
+}
+.head__sec__text__p {
+    opacity: 70%;
+    line-height: 25px;
+}
+.head__sec__box {
+    max-width: 635px;
+}
+.head__sec__box__h1 {
+    margin-bottom: 3.2rem;
+}
+.span__chek__box {
+    margin-bottom: 2rem;
+    opacity: 80%;
+}
+.span__1x {
+    color: var(--brown);
+}
+.span__yoq {
+    color: var(--white);
+}
+@media screen and (max-width: 1120px) {
+    .head__sec__text__p {
+        padding: 0 3rem 0 0;
+    }
+}
+@media screen and (max-width: 940px) {
+    .headphones__section {
+        flex-direction: column;
+    }
+    .head__sec__text__p {
+        text-align: justify;
+        margin-bottom: 12rem;
+    }
+    .head__sec__box {
+        display: flex;
+        gap: 10rem;
+    }
+    .head__sec__box__h1 {
+        width: 200px;
+    }
+    .box__in__the__text {
+        
+    }
+    .span__chek__box {
+        width: 200px;
+    }
+}
+@media screen and (max-width: 580px) {
+    .head__sec__box {
+        flex-direction: column;
+        gap: 2.4rem;
+    }
+}
+
+
+
+.headphones1__section {
+    display: flex;
+    gap: 3rem;
+    margin-bottom: 16rem;
+}
+.headphones1__section__first__img {
+}
+.headphones1__first__img {
+    margin-bottom: 3.2rem;
+    width: 100%;
+    height: auto;
+}
+.headphones1__second__img {
+    width: 100%;
+    height: auto;
+}
+.headphones1__thirty__img {
+    width: 100%;
+    height: auto;   
+}
+
+@media screen and (max-width: 580px) {
+    .headphones1__section {
+        flex-direction: column;
+    }
+} 
+
+
+
+.section__hero__headphones1__text {
+    text-align: center;
+    margin-bottom: 6.4rem;
+}
+.headphones1__cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 3rem;
+    margin-bottom: 20rem;
+}
+.headphones__1 {
+    width: 250px;
+    height: 300px;
+    background-color: var(--dark-gray);
+} 
+
+.headphones__img__page__good {
+    padding-top: 4rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.headphones1__cards__texts {
+    margin-top: 4rem;
+    text-align: center;
+    margin-bottom: 3.2rem;
+}
+
+.headphones1__btn {
+    padding: 1.4rem 2rem;
+    background-color: var(--brown);
+    color: var(--white);
+    text-align:center;
+    transition: all 0.2s;
+    margin-left: 5rem;
+}
+.headphones1__btn:hover {
+    color: var(--white); 
+    background-color: lightsalmon;
+}
+
+@media screen and (max-width: 920px) {
+    .headphones1__cards {
+        flex-direction: column;
+    }
+    .headphones__1 {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .headphones1__btn {
+        display: block;
+    }
+}
